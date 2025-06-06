@@ -1,0 +1,28 @@
+---
+title:  Setup VPS for Production 
+description: Guide on setting up a vps server for deployment
+---
+
+
+## Selecting A VPS
+
+
+## Installations
+Ater you have successfully sshed into you vps, install following packages:
+  - neovim  -- editor
+  - tmux -- session management
+  - nginx -- server
+
+  ```
+    sudo apt upgrade && sudo apt update
+    sudo apt install neovim tmux nginx -y
+  ```
+To get sane defaults for tmux and bash aliases, clone this github repo
+
+  ```
+  mkdir .config
+  cd .config 
+  git clone https://github.com/hiicharm/vpsconf .
+  mv .bash_aliases ~/
+  bash
+  ```

@@ -1,0 +1,8 @@
+{
+  "title": "DevOps",
+  "icon": "MyIcon",
+  "pages": [
+    "setup-vps-for-production"
+  ],
+  "defaultOpen": true
+}
