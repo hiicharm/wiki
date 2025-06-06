@@ -4,8 +4,6 @@
 # generated content
 .contentlayer
 .content-collections
-.source
-
 # test & build
 /coverage
 /.next/
