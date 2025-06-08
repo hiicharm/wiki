@@ -1,7 +1,5 @@
 import Image from 'next/image';
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
-import Link from 'next/link';
-
 /**
  * Shared layout configurations
  *
@@ -22,6 +20,8 @@ export const baseOptions: BaseLayoutProps = {
       </>
     ),
   },
+
   // see https://fumadocs.dev/docs/ui/navigation/links
-  links: [],
+  links: [
+  ],
 };
