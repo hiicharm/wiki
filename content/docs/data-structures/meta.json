@@ -1,0 +1,8 @@
+{
+  "title": "Data Structures",
+  "pages": [
+    "list-adt",
+    "linked-list"
+  ],
+  "defaultOpen": true
+}
