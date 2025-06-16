@@ -1,8 +1,9 @@
 {
-  "title": "DevOps",
+  "title": "Rust",
   "icon": "MyIcon",
   "pages": [
-    "setup-vps-for-production"
+    "ownership"
   ],
   "defaultOpen": false
 }
+
