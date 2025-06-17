@@ -2,7 +2,8 @@
   "title": "Rust",
   "icon": "MyIcon",
   "pages": [
-    "ownership"
+    "ownership",
+    "borrowing"
   ],
   "defaultOpen": false
 }

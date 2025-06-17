@@ -1,4 +1,5 @@
 "use client"
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import React, { useRef, useState } from 'react';
 
 interface ImageSliderProps {
@@ -28,9 +29,9 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
       {/* Arrows */}
       <button
         onClick={() => scroll('left')}
-        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/70 hover:bg-white rounded-full p-2 shadow"
+        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-mocha-mantle/70 hover:bg-mocha-overlay2 rounded-full p-2 shadow"
       >
-        ◀
+        <ArrowLeft />
       </button>
 
       <div
@@ -52,10 +53,11 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
 
       <button
         onClick={() => scroll('right')}
-        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/70 hover:bg-white rounded-full p-2 shadow"
+        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-mocha-mantle/70 hover:bg-mocha-overlay2 rounded-full p-2 shadow"
       >
-        ▶
+        <ArrowRight />
       </button>
+
     </div >
   );
 };
