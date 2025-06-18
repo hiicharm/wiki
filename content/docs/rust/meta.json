@@ -2,8 +2,12 @@
   "title": "Rust",
   "icon": "MyIcon",
   "pages": [
+    "index",
     "ownership",
-    "borrowing"
+    "borrowing",
+    "structs",
+    "enums",
+    "pattern_matching"
   ],
   "defaultOpen": false
 }
