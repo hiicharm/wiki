@@ -7,7 +7,12 @@
     "borrowing",
     "structs",
     "enums",
-    "pattern_matching"
+    "pattern_matching",
+    "managing_projects",
+    "error_handling",
+    "generics",
+    "traits",
+    "lifetimes"
   ],
   "defaultOpen": false
 }

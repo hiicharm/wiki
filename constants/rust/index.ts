@@ -1,4 +1,12 @@
-
+export const sampleImages = [
+  "/rust/a/a1.jpg",
+  "/rust/a/a2.jpg",
+  "/rust/a/a3.jpg",
+  "/rust/a/a4.jpg",
+  "/rust/a/a5.jpg",
+  "/rust/a/a6.jpg",
+  "/rust/a/a7.jpg",
+]
 export const ownershipImages = [
   "/rust/ownership/ownership1.jpg",
   "/rust/ownership/ownership2.jpg",
@@ -32,4 +40,24 @@ export const patternMatchingImages = [
   "/rust/pattern_matching/pattern_matching1.jpg",
   "/rust/pattern_matching/pattern_matching2.jpg",
   "/rust/pattern_matching/pattern_matching3.jpg",
+]
+
+export const managingProjectsImages = [
+  "/rust/managing_projects/managing_projects1.jpg",
+  "/rust/managing_projects/managing_projects2.jpg",
+  "/rust/managing_projects/managing_projects3.jpg",
+  "/rust/managing_projects/managing_projects4.jpg",
+]
+
+export const genericsImages = [
+  "/rust/generics/generics1.jpg",
+  "/rust/generics/generics2.jpg",
+]
+export const traitsImages = [
+  "/rust/traits/traits1.jpg",
+  "/rust/traits/traits2.jpg",
+]
+export const lifetimesImages = [
+  "/rust/lifetimes/lifetimes1.jpg",
+  "/rust/lifetimes/lifetimes2.jpg",
 ]
