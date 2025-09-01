@@ -8,3 +8,69 @@ import ImageSlider from "@/components/slider"
 import { enumsImages } from "@/constants/rust/"
 
 <ImageSlider images={enumsImages}/>
+
+# Enums
+
+A value is one of possible set of values. Defining an enum creates a type with that identifier in type namespace?
+
+```Rust
+enum Shape{
+    Rectangle,
+    Circle,
+}
+```
+
+Anything that is of the type Shape can either be a Rectangle or a Circle
+
+```Rust
+let box= Shape::Rectangle;
+```
+
+## Storing Data in Enums
+
+```Rust
+enum BagItem{
+    Fruit(String),
+    Vegetable(String),
+}
+
+let x=Item:2
+```
+
+## Option Enum / Null Values
+
+Null as the idea represent absence of value.
+Option is rust's implementation of the concept of null. A lot of functions/operations return the option enum.
+
+```Rust
+enum Option <T>{
+    None,
+    Some(T),
+}
+```
+
+Meaning that the value could be nothing (Option::None or simply None) or something(Option::Some(val) or some(val)).
+Both Option and and its variants are included in the prelude.
+
+```Rust
+let x=Option::Some(5);
+let x=Some(5);
+
+let y= Option::None;
+let y=None;
+```
+
+The use? To use a value of an enum type, you need to pattern match e.g. using match here:
+
+```Rust
+println!("{x}"); //this is not allowed //you can't use the values of Option type as if they are definitely present
+match x{
+    None=> println!("nah"),
+    Some(val)=> println!("hehe"),
+}
+```
+
+Since the values can't be used directly, you're forced to handle all the cases explicitly.
+
+
+
