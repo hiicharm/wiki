@@ -1,0 +1,46 @@
+# Generic Data Types
+
+Generics can be used in fn signatures, structs, enums among other things to create definitions with placeholder types, that can later be replaced with concrete types.
+Using generics doesn't affect runtime performance. Each instance of a generic item is replaced with concrete types at compile time.
+
+## Generic Functions
+
+Before using a generic param in fn definiton, we need to declare it. Notice the angle brackets after fn name(before using in params).
+
+```Rust
+fn largest <T>(list:&[T]->&T){}
+```
+
+## Generic Struct
+
+Struct fields can also make use of generic data types, to do so the type param must be declared before use.
+
+```Rust
+struct Point<T,U>{
+    x:T,
+    y:U,
+}
+```
+
+
+## Generic Enum
+
+```Rust
+enum Result<T,E>{
+    Ok(T),
+    Err(E),
+}
+```
+
+## Generic Impl Blocks
+
+```Rust
+impl Point<T> Point<T>{} //works for all types
+
+impl Point<f32>{} //works only if T is f32
+```
+
+
+
+
+

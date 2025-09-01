@@ -4,13 +4,15 @@
   "pages": [
     "index",
     "ownership",
-    "borrowing",
+    "borrow",
     "structs",
-    "enums",
+    "enum",
+    "enum1",
     "pattern_matching",
     "managing_projects",
     "error_handling",
     "generics",
+    "generics1",
     "traits",
     "lifetimes"
   ],

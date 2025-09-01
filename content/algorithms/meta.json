@@ -1,0 +1,9 @@
+{
+  "title": "Algorithms",
+  "icon": "MyIcon",
+  "pages": [
+    "index",
+    "recursion"
+  ],
+  "defaultOpen": false
+}
